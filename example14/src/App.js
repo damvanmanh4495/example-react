@@ -1,0 +1,36 @@
+import React, { Component } from "react";
+import Login from "./Components/Login";
+import CategoryList from "./Components/Category/CategoryList";
+import AddCategory from "./Components/Category/AddCategory"
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Dashboard from "./Components/Dashboard/Dashboard";
+import UpdateCategory from "./Components/Category/UpdateCategory";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <div>
+        <div className="content">
+          <Switch>
+            <Route exact path="/" component={Dashboard} />
+            <Route exact path="/dashboard" component={Dashboard} />
+            <Route path="/login" component={Login} />
+            <Route exact path="/categories" component={CategoryList} />
+            <Route
+              exact
+              path="/categories/add"
+              component={AddCategory}
+            />
+            <Route
+              exact
+              path="/categories/update/:id"
+              component={UpdateCategory}
+            />
+          </Switch>
+        </div>
+      </div>
+    </BrowserRouter>
+  );
+}
+
+export default App;

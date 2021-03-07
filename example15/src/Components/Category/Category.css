@@ -1,0 +1,30 @@
+textarea {
+    width: 100%;
+}
+.form-add{
+    margin: 100px 300px;
+    border: 1px solid rgb(189, 189, 189);
+    padding: 50px;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(228, 227, 227);
+}
+.form-add table{
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.btn-cancel{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.title_dashboard{
+    text-align: right;
+}
+.btn_link a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.btn_link {
+    margin-bottom: 20px;
+}

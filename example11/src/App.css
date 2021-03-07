@@ -1,0 +1,19 @@
+.wrapper{
+  padding: 20px;
+}
+label {
+  display: block;
+}
+.form-login form{
+  display: flex;
+}
+.form-login table{
+  margin: 100px auto;
+  height: 200px;
+}
+.form-login table tr {
+  padding: 20px 0;
+}
+.form-login table input {
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+.item-category{
+    background-color: rgb(209, 208, 208);
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+.list-category{
+    list-style: none;
+}
+.back-login {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+a {
+    text-decoration: none !important;
+}
+.section-link span{
+    padding: 20px;
+}
+.account-register a{
+    padding: 20px;
+}

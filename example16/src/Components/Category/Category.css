@@ -1,0 +1,15 @@
+ul {
+    list-style: none;
+}
+.item-li {
+    background-color: rgb(179, 179, 179);
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+.category-details td:nth-child(1){
+    font-weight: 700;
+}
